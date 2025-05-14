@@ -29,7 +29,7 @@ jobs:
         npx webpack
 
     - name: Upload build artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: build
         path: dist/ # Pfad zu den gebauten Dateien
